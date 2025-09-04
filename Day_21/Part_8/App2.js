@@ -185,6 +185,9 @@
 
 
 // Destructuring with objects
+/* This code snippet is using object destructuring in JavaScript. It is extracting the `username` and
+`password` properties from the `detailsOfStudents` object and assigning them to variables `user` and
+`password` respectively. */
 
 const detailsOfStudents = {
         name: "Divyansh",
@@ -193,7 +196,7 @@ const detailsOfStudents = {
         subjects:["MAth","English","Chemistry"],
         username:"divyansh123",
         password:"123"
-};
+}; 
 
 
 let {username:user, password,city:place="GKP"} = detailsOfStudents;
